@@ -24,7 +24,12 @@ nav ul {
 nav a {
   color: #F7C64B;
   text-decoration: none;
+  transition:color 2s ease-out;
 }
+
+
+nav a:hover
+{color:#FFFFFF;}
 
 nav a[aria-current="page"] {
   text-decoration: underline;
@@ -105,7 +110,7 @@ input, textarea {
 
 button {
   padding: 0.75rem;
-  background-color: #b8860b;
+  background-color: #F9DD94;
   border: none;
   color: white;
   font-size: 1rem;
@@ -133,16 +138,20 @@ h2 {text-align:center}
 
 #yes {text-align:center;}
 
-.step {border:2px solid black;}
+.step {border:2px solid black;
+background-color:#F9DD94;
+color:black;}
 
-.step2 {border:2px solid black;}
+.step2 {border:2px solid black;
+background-color:#F9DD94;
+color:black;}
 
-.step h4 {color:#b8860b;
-		background-color:black;
+.step h4 {color:black;
+		
 		text-align:center;
 }
 
-.step2 h4 {color:#b8860b;
-		background-color:black;
+.step2 h4 {color:black;
+		
 		text-align:center;
 }
